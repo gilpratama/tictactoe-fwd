@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+  
+  h1 {
+    color: #3498db; /* Blue color */
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 60pt; /* Font size set to 20pt for X and O */
+    font-family: 'Arial Black', sans-serif; /* Use Arial Black font for X and O */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f18f0f; /* Yellow color for X and O */
+    transition: background-color 0.3s ease;
+  }
+  
+  .cell:hover {
+    background-color: #3498db; /* Red background on hover */
+    color: #e74c3c; /* White text on hover */
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result {
+    font-size: 24px;
+    color: #e74c3c; /* Red color for results */
+  }
+  
+  /* New styles for the restart button */
+  button {
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
