@@ -68,8 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Rest of the code...
-
   function checkWinner() {
     const winningCombinations = getWinningCombinations();
 
