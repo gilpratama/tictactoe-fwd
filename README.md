@@ -9,8 +9,6 @@ A simple and scalable Tic Tac Toe game implemented in HTML, CSS, and JavaScript.
 - [How to Play](#how-to-play)
 - [Live Site](#live-site)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
